@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edward Gyan | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6; 
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0d1b2a;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      background: #1b263b;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #e0e1dd;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section h2 {
+      color: #0d1b2a;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e0e1dd;
+      padding-bottom: 0.5rem;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    footer {
+      background: #0d1b2a;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #e0e1dd;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Edward Gyan</h1>
+    <p>Backend Developer | Data Enthusiast | IT Professional</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a backend developer and IT student with a passion for building
+      reliable, user-friendly applications. I enjoy working with Python, Flask, and Django,
+      as well as exploring data analysis and machine learning . My projects focus on solving real-world problems,
+      from student review platforms to location-based clock-in systems.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Programming</h3>
+        <p>Python, JavaScript, SQL</p>
+      </div>
+      <div class="card">
+        <h3>Frameworks & Tools</h3>
+        <p>Flask, Django, Bootstrap, Git/GitHub</p>
+      </div>
+      <div class="card">
+        <h3>Data & Analysis</h3>
+        <p>Data Analysis (Pandas, Excel), Jupyter Notebooks</p>
+      </div>
+      <div class="card">
+        <h3>Other</h3>
+        <p>APIs, RESTful design, System Design concepts, Problem Solving</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>School Reviews Platform</h3>
+        <p>A Django-based site where students can create accounts, log in, and review schools in Ghana, similar to Glassdoor but for education.</p>
+      </div>
+      <div class="card">
+        <h3>Location-Based Clock In/Out</h3>
+        <p>A Django web app that allows users to clock in only from specific geographic locations (like when they get to an office building).</p>
+      </div>
+      <div class="card">
+        <h3>Highary (Final Year Project)</h3>
+        <p>Machine-Learning Powered High School Recommendation System for Ghanaians. To sort junior high students into appropriate senior high schools. </p>
+      </div>
+      <div class="card">
+        <h3>Data Projects</h3>
+        <p>Exploring datasets with Python, Pandas, and visualization tools to find meaningful insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Feel free to reach out if you'd like to collaborate or learn more about my work.
+    </p>
+    <p>
+      <a href="mailto:arnoldgyan5@gmail.com">arnoldgyan5@gmail.com</a>
+    </p>
+    <!-- <p>
+      <a href="https://github.com/yourgithub" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+    </p> -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Edward Gyan. Built with HTML & CSS.</p>
+  </footer>
+</body>
+</html>
